@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gestão de Reformas</title>
+    <title>Metrik</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -11,30 +11,66 @@
          A visually compelling hero is an important element of uma boa landing page, 
          como destaca o guia da Landingi: títulos fortes, proposta de valor clara e 
          elementos visuais de alta qualidade ajudam a captar a atenção do visitante【553441888003533†L302-L331】.  -->
-    <header class="hero">
+  <header class="hero">
+    <!-- Vídeo de fundo -->
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="assets/metrik-hero.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo em background.
+    </video>
+
+    <!-- Overlay e conteúdo -->
+    <div class="overlay">
+      <div class="hero-content">
+        <h1>Gestão Completa da sua obra</h1>
+        <p>
+          Transforme o caos da sua reforma em organização.<br>Somos a solução definitiva em gestão de obras.
+        </p>
+        <a href="https://wa.me/+5511952999068?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20minha%20reforma." 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="cta-button">
+          Entre em Contato e Solicite um Orçamento
+        </a>
+      </div>
+    </div>
+  </header>
+    <!-- <header class="hero">
       <div class="overlay">
         <div class="hero-content">
-          <h1>Gestão de Reformas Simplificada</h1>
+          <h1>Gestão da sua Reforma Simplificada</h1>
           <p>
             Transforme o caos da sua reforma em organização. Acompanhe etapas,
-            custos e prazos em um só lugar com nossa solução de gestão.
+            custos e prazos, somos a solução definitiva em gestão de obras, com economias surpreendentes.
           </p>
-          <a href="#contato" class="cta-button">Solicite um Orçamento</a>
+           <a href="https://wa.me/+5511952999068?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20minha%20reforma." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="cta-button">
+              Entre em Contato e Solicite um Orçamento
+            </a>
         </div>
       </div>
-    </header>
+    </header> -->
 
     <!-- Section presenting a demonstration video.  
          Utilizar recursos visuais fortes, como vídeos, é recomendado para reforçar a 
          credibilidade e demonstrar serviços de construção【553441888003533†L754-L759】. -->
     <section class="video-section">
-      <h2>Assista ao vídeo de demonstração</h2>
+      <h2>Veja alguns cases de sucesso!</h2>
       <div class="video-container">
         <video controls>
-          <source src="assets/sample-video.mp4" type="video/mp4" />
+          <source src="assets/pires-da-mota.mp4" type="video/mp4" />
           Seu navegador não suporta a tag de vídeo.
         </video>
       </div>
+      <h3>Rua Pires da mota - São Paulo 2024</h3>
+      <div class="video-container">
+        <video controls>
+          <source src="assets/al-ribeirao-preto.mp4" type="video/mp4" />
+          Seu navegador não suporta a tag de vídeo.
+        </video>
+      </div>
+      <h3>Alameda Ribeirão Preto - São Paulo 2025</h3>
     </section>
 
     <!-- Services section highlighting key benefits.  
@@ -46,22 +82,19 @@
         <div class="card">
           <h3>Planejamento de Obras</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
-            urna nec leo vestibulum.
+            Planejamento total da sua obra, prestadores de serviços, pedidos a prefeitura, material, etc.
           </p>
         </div>
         <div class="card">
           <h3>Gestão de Custos</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
-            urna nec leo vestibulum.
+            Somos únicos em questão de transparência, custos chegando a ser 50% a menos do que empreiteras comuns.
           </p>
         </div>
         <div class="card">
-          <h3>Acompanhamento em Tempo Real</h3>
+          <h3>Acompanhamento</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
-            urna nec leo vestibulum.
+            Reportes diário baseados na metodologia ágil Scrum de gestão de projetos.
           </p>
         </div>
       </div>
@@ -74,17 +107,37 @@
       <h2>Depoimentos</h2>
       <div class="testimonial">
         <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia
-          nulla nulla, vel tempor massa."
+          "Parabéns pelo trabalho, ficou lindo o apartamento!"
         </p>
-        <span>— Cliente Satisfeito 1</span>
+        <span>Al. Ribeirão Preto 2025 — Neide</span>
       </div>
-      <div class="testimonial">
+      <!-- <div class="testimonial">
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia
           nulla nulla, vel tempor massa."
         </p>
         <span>— Cliente Satisfeito 2</span>
+      </div> -->
+    </section>
+
+    <section class="steps section">
+      <h2>Como Trabalhamos</h2>
+      <div class="steps-list">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Análise da Reforma</h3>
+          <p>Entendemos suas necessidades, avaliamos o espaço e coletamos informações essenciais.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Planejamento Detalhado</h3>
+          <p>Criamos um orçamento claro, cronograma realista e apresentamos as melhores opções.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Acompanhamento e Execução</h3>
+          <p>Gerenciamos fornecedores, mão de obra e materias, garantindo transparência em cada etapa.</p>
+        </div>
       </div>
     </section>
 
@@ -93,10 +146,15 @@
     <section class="contact" id="contato">
       <h2>Entre em Contato</h2>
       <p>
-        Preencha o formulário abaixo para solicitar um orçamento ou saber mais sobre
-        nossos serviços.
+        Converse como nossos especialistas, satisfação garantida.
       </p>
-      <form>
+      <a href="https://wa.me/+5511952999068?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20minha%20reforma." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="cta-button">
+          Solicite um Orçamento já!
+      </a>
+      <!-- <form>
         <input type="text" name="nome" placeholder="Seu nome" required />
         <input
           type="email"
@@ -111,11 +169,11 @@
           required
         ></textarea>
         <button type="submit">Enviar</button>
-      </form>
+      </form> -->
     </section>
 
     <footer>
-      <p>&copy; 2025 Gestão de Reformas. Todos os direitos reservados.</p>
+      <p>&copy; 2025 Metrik. Todos os direitos reservados.</p>
     </footer>
   </body>
 </html>
